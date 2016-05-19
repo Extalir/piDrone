@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="BMP085" displayName="BMP085" projectFiles="true">
+      <itemPath>BMP085.cpp</itemPath>
+      <itemPath>BMP085.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="DRONE" displayName="DRONE" projectFiles="true">
+      <itemPath>Drone.cpp</itemPath>
+      <itemPath>Drone.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="GPS" displayName="GPS" projectFiles="true">
+      <itemPath>GPS.cpp</itemPath>
+      <itemPath>GPS.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Variables.h</itemPath>
+      <itemPath>helper_3dmath.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HMC5883L" displayName="HMC5883L" projectFiles="true">
+      <itemPath>HMC5883L.cpp</itemPath>
+      <itemPath>HMC5883L.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="I2C" displayName="I2C" projectFiles="true">
+      <itemPath>I2Cdev.cpp</itemPath>
+      <itemPath>I2Cdev.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="MPU6050" displayName="MPU6050" projectFiles="true">
+      <itemPath>MPU6050.cpp</itemPath>
+      <itemPath>MPU6050.h</itemPath>
+      <itemPath>MPU6050_6Axis_MotionApps20.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="PID" displayName="PID" projectFiles="true">
+      <itemPath>PID.cpp</itemPath>
+      <itemPath>PID.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="PLANVUELO" displayName="PLANVUELO" projectFiles="true">
+      <itemPath>PlanVuelo.cpp</itemPath>
+      <itemPath>PlanVuelo.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SERIAL" displayName="SERIAL" projectFiles="true">
+      <itemPath>Serial.cpp</itemPath>
+      <itemPath>Serial.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SERVIDOR" displayName="SERVIDOR" projectFiles="true">
+      <itemPath>ServidorTCP.cpp</itemPath>
+      <itemPath>ServidorTCP.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>OFFSET.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>MPU6050</Elem>
+    <Elem>GPS</Elem>
+    <Elem>HMC5883L</Elem>
+    <Elem>I2C</Elem>
+    <Elem>PID</Elem>
+    <Elem>SERIAL</Elem>
+    <Elem>SERVIDOR</Elem>
+    <Elem>DRONE</Elem>
+    <Elem>PLANVUELO</Elem>
+    <Elem>BMP085</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-pthread -lwiringPi</commandLine>
+          <warningLevel>0</warningLevel>
+        </cTool>
+        <ccTool>
+          <commandLine>-pthread -lwiringPi</commandLine>
+          <warningLevel>0</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-pthread -lwiringPi</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="BMP085.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BMP085.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Drone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Drone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HMC5883L.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HMC5883L.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="I2Cdev.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="I2Cdev.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MPU6050.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MPU6050.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MPU6050_6Axis_MotionApps20.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OFFSET.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PID.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PlanVuelo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PlanVuelo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ServidorTCP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ServidorTCP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Variables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="helper_3dmath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BMP085.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BMP085.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Drone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Drone.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HMC5883L.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HMC5883L.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="I2Cdev.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="I2Cdev.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MPU6050.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MPU6050.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MPU6050_6Axis_MotionApps20.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OFFSET.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PID.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PlanVuelo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PlanVuelo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ServidorTCP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ServidorTCP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Variables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="helper_3dmath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
