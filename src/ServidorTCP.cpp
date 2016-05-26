@@ -14,7 +14,7 @@
 #include <stdlib.h>
 
 #include "ServidorTCP.h"
-#include "Drone.h"
+#include "../DRONE/Drone.h"
 
 std::vector<std::string> split(const std::string &s, char delim) 
 {

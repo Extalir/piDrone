@@ -18,7 +18,7 @@
 #include <stdio.h>
 #include <string>
 
-#include "ServidorTCP.h"
+#include "../SERVIDOR/ServidorTCP.h"
 
 #define PITCH 0
 #define ROLL 1

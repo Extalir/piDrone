@@ -14,11 +14,11 @@
 #ifndef VARIABLESGLOBALES_H
 #define VARIABLESGLOBALES_H
 
-#include "GPS.h"
-#include "HMC5883L.h"
-#include "PID.h"
-#include "PlanVuelo.h"
-#include "MPU6050.h"
+#include "GPS/GPS.h"
+#include "HMC5883L/HMC5883L.h"
+#include "PID/PID.h"
+#include "PLANVUELO/PlanVuelo.h"
+#include "MPU6050/MPU6050.h"
 
 namespace COMM
 {

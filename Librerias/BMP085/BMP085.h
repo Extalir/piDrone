@@ -20,7 +20,7 @@
 #include <stdlib.h>
 #include <iostream>
 #include <cmath>
-#include "I2Cdev.h"
+#include "../I2C/I2Cdev.h"
 
 #define BMP085_I2C_ADDRESS 0x77
 

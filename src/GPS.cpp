@@ -11,7 +11,7 @@
  * Created on 16 de febrero de 2016, 9:07
  */
 
-#include "Drone.h"
+#include "../DRONE/Drone.h"
 
 GPS::GPS() 
 {

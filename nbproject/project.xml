@@ -10,16 +10,18 @@
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>MPU6050</sourceRootElem>
+                <sourceRootElem>BMP085</sourceRootElem>
+                <sourceRootElem>DRONE</sourceRootElem>
                 <sourceRootElem>GPS</sourceRootElem>
                 <sourceRootElem>HMC5883L</sourceRootElem>
                 <sourceRootElem>I2C</sourceRootElem>
+                <sourceRootElem>MPU6050</sourceRootElem>
                 <sourceRootElem>PID</sourceRootElem>
+                <sourceRootElem>PLANVUELO</sourceRootElem>
                 <sourceRootElem>SERIAL</sourceRootElem>
                 <sourceRootElem>SERVIDOR</sourceRootElem>
-                <sourceRootElem>DRONE</sourceRootElem>
-                <sourceRootElem>PLANVUELO</sourceRootElem>
-                <sourceRootElem>BMP085</sourceRootElem>
+                <sourceRootElem>Librerias</sourceRootElem>
+                <sourceRootElem>src</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

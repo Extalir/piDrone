@@ -25,8 +25,8 @@
 #include <iostream>
 #include <sstream>
 #include <unistd.h>
-#include "PlanVuelo.h"
-#include "Variables.h"
+#include "../PLANVUELO/PlanVuelo.h"
+#include "../Variables.h"
 
 using namespace std;
 class ServidorTCP 
